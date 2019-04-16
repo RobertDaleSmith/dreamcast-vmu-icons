@@ -2,4 +2,4 @@ addtype application/x-dreamcast-vms-info vmi
 addtype application/x-dreamcast-vms vms
 
 RewriteRule ^404/?$ 404.php
-ErrorDocument 404 /dcvmuicons/404.htm
+ErrorDocument 404 /404.htm
