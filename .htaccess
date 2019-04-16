@@ -6,5 +6,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.dcvmuicons.net [NC]
 RewriteRule ^(.*)$ http://dcvmuicons.net/$1 [L,R=301]
 
+RewriteCond %{SERVER_PORT} 443 
+RewriteRule ^(.*)$ http://dcvmuicons.net/$1 [R,L]
+
 RewriteRule ^404/?$ 404.php
 ErrorDocument 404 /404.htm
