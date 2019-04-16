@@ -1,5 +1,10 @@
 addtype application/x-dreamcast-vms-info vmi
 addtype application/x-dreamcast-vms vms
 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.dcvmuicons.net [NC]
+RewriteRule ^(.*)$ http://dcvmuicons.net/$1 [L,R=301]
+
 RewriteRule ^404/?$ 404.php
 ErrorDocument 404 /404.htm
