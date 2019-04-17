@@ -18,3 +18,5 @@ More details can be found at [vmudev.dcemulation.org](http://vmudev.dcemulation.
 ### Thank You 🙏
 - [SegaRetro](https://segaretro.org) for maintaining an archive of the original website itself after all these years.
 - [@mrneo240](https://github.com/mrneo240) for creating [NeoDC-Icondata-Tool](https://github.com/mrneo240/NeoDC-Icondata-Tool), which was used to rebuild the lost 326 VMI/VMS data files.
+- [Kazade](https://github.com/Kazade) for creating [DreamPi](https://github.com/Kazade/Dreampi) and getting Dreamcast back online two decades later.
+(for sale at [dreamcastlive.net](https://www.dreamcastlive.net/shop.html))
